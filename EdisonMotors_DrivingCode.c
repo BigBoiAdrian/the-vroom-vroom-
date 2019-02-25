@@ -15,13 +15,37 @@ task main()
 	{
 		startMotor(leftMotor, 100);
 		startMotor(rightMotor, 100);
-//test turning
 }
 	}
 	(SensorValue(sonar) <25);
 	{
 		startMotor(leftMotor, 0);
 		startMotor(rightMotor, 0);
+		//wait(4.5)
+		//startMotor(leftMotor, 100);      //trun right
+		//startMotor(rightMotor, -100);
+		//wait(1.5)
+		//startMotor(leftMotor, 0);        //stop right turn
+		//startMotor(rightMotor, 0);
+		//wait(2.0)
+		//startMotor(leftMotor, 100);      //go straight
+		//startMotor(rightMotor, 100);
+		//wait(2.0)
+		//startMotor(leftMotor, -100);     //turn left
+		//startMotor(rightMotor, 100);
+		//wait(1.5)
+		//startMotor(leftMotor, 100);      //go straight
+		//startMotor(rightMotor, 100)
+		//wait(2.0)
+		//startMotor(leftMotor, -100);     //turn left
+		//startMotor(rightMotor, 100);
+		//wait(1.5)
+		//startMotor(leftMotor, 100);      //go straight
+		//startMotor(rightMotor, 100);
+		//wait(2.0)
+		//startMotor(leftMotor, 100);      //trun right
+		//startMotor(rightMotor, -100);
+		//wait(1.5)
 	}
 
 	while(1 == 1)
